@@ -19,13 +19,13 @@ import { LinkPreset } from "./types/config";
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
-const SITE_LANG = "ja"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
+	title: "Arcwolf Blog",
+	subtitle: "",
+	siteURL: "https://arcwolf.top/", // 请替换为你的站点URL，以斜杠结尾
+	siteStartDate: "2026-02-02", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
@@ -53,11 +53,11 @@ export const siteConfig: SiteConfig = {
 		// 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
 		mode: "logo",
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "Arcwolf",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/home.png",
+		icon: "assets/home/28.png",
 		// 网站Logo图片路径
-		logo: "assets/home/default-logo.png",
+		logo: "assets/home/28.png",
 	},
 
 	// 页面自动缩放配置
@@ -114,20 +114,10 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
-				"/assets/desktop-banner/5.webp",
-				"/assets/desktop-banner/6.webp",
-			], // 桌面横幅图片
+				'https://random.arcwolf.top/pic?img=ua',
+			], // 桌面横幅图
 			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
-				"/assets/mobile-banner/5.webp",
-				"/assets/mobile-banner/6.webp",
+				'https://random.arcwolf.top/pic?img=ua',
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -147,7 +137,7 @@ export const siteConfig: SiteConfig = {
 		// PicFlow API支持(智能图片API)
 		imageApi: {
 			enable: false, // 启用图片API
-			url: "http://domain.com/api_v2.php?format=text&count=4", // API地址，返回每行一个图片链接的文本
+			url: "https://random.arcwolf.top/pic?img=ua", // API地址，返回每行一个图片链接的文本
 		},
 		// 这里需要使用PicFlow API的Text返回类型,所以我们需要format=text参数
 		// 项目地址:https://github.com/matsuzaka-yuki/PicFlow-API
@@ -155,14 +145,10 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "わたしの部屋", // 主页横幅主标题
+			title: "Arcwolf Blog", // 主页横幅主标题
 
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"欢迎连接什亭之匣，老师"
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -194,11 +180,11 @@ export const siteConfig: SiteConfig = {
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
 		// 留空以使用默认 favicon
-		// {
-		//   src: '/favicon/icon.png',    // 图标文件路径
-		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		//   sizes: '32x32',              // 可选，图标大小
-		// }
+		{
+		src: '/assets/home/28.png',    // 图标文件路径
+		   theme: 'light',              // 可选，指定主题 'light' | 'dark'
+		   sizes: '32x32',              // 可选，图标大小
+		 }
 	],
 
 	// 字体配置
@@ -226,20 +212,10 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"/assets/desktop-banner/1.webp",
-			"/assets/desktop-banner/2.webp",
-			"/assets/desktop-banner/3.webp",
-			"/assets/desktop-banner/4.webp",
-			"/assets/desktop-banner/5.webp",
-			"/assets/desktop-banner/6.webp",
+			"https://random.arcwolf.top/pic?img=ua",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/1.webp",
-			"/assets/mobile-banner/2.webp",
-			"/assets/mobile-banner/3.webp",
-			"/assets/mobile-banner/4.webp",
-			"/assets/mobile-banner/5.webp",
-			"/assets/mobile-banner/6.webp",
+			"https://random.arcwolf.top/pic?img=ua",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -263,20 +239,20 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					name: "Github",
+					url: "https://github.com/shittim-team",
 					external: true,
 					icon: "fa7-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/1340036269",
 					external: true,
 					icon: "fa7-brands:bilibili",
 				},
 				{
 					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					url: "https://gitee.com/arcwolf1",
 					external: true,
 					icon: "mdi:git",
 				},
@@ -288,20 +264,11 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:person",
 			children: [
 				{
-					name: "Anime",
-					url: "/anime/",
-					icon: "material-symbols:movie",
-				},
-				{
 					name: "Diary",
 					url: "/diary/",
 					icon: "material-symbols:book",
 				},
-				{
-					name: "Gallery",
-					url: "/albums/",
-					icon: "material-symbols:photo-library",
-				},
+
 				{
 					name: "Devices",
 					url: "devices/",
@@ -327,35 +294,13 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		{
-			name: "Others",
-			url: "#",
-			icon: "material-symbols:more-horiz",
-			children: [
-				{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
-					name: "Skills",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
-				{
-					name: "Timeline",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
-				},
-			],
-		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "まつざか ゆき",
-	bio: "世界は大きい、君は行かなければならない",
+	avatar: "/assets/home/28.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "Arcwolf",
+	bio: "故人西辞黄鹤楼，西大闪击宿舍楼。",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -364,27 +309,17 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibili",
 			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/1340036269",
 		},
 		{
 			name: "Gitee",
 			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			url: "https://gitee.com/arcwolf1",
 		},
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
-		},
-		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
-		{
-			name: "Discord",
-			icon: "fa7-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			url: "https://github.com/shittim-team",
 		},
 	],
 };
@@ -443,7 +378,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "ブログへようこそ！これはサンプルの告知です", // 公告内容
+	content: "Nothing", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -458,14 +393,14 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
 		"https://www.bilibili.uno/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
-	id: "14164869977", // 歌单ID
+	id: "8388353818", // 歌单ID
 	server: "netease", // 音乐源服务器。有的meting的api源支持更多平台,一般来说,netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐
 	type: "playlist", // 播单类型
 };
 
 export const footerConfig: FooterConfig = {
-	enable: false, // 是否启用Footer HTML注入功能
-	customHtml: "", // HTML格式的自定义页脚信息，例如备案号等，默认留空
+	enable: true, // 是否启用Footer HTML注入功能
+	customHtml: "",
 	// 也可以直接编辑 FooterConfig.html 文件来添加备案号等自定义内容
 	// 注意：若 customHtml 不为空，则使用 customHtml 中的内容；若 customHtml 留空，则使用 FooterConfig.html 文件中的内容
 	// FooterConfig.html 可能会在未来的某个版本弃用
@@ -553,7 +488,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 
 	// 侧栏组件布局配置
 	components: {
-		left: ["profile", "announcement", "categories", "tags"],
+		left: ["profile", "announcement", "categories","tags"],
 		right: ["site-stats", "calendar"],
 		drawer: ["profile", "announcement"],
 	},
@@ -611,7 +546,7 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: true, // 启用看板娘
+	enable: false, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 模型位置
 	width: 280, // 默认宽度
