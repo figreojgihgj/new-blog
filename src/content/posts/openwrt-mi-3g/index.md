@@ -26,7 +26,7 @@ lang: ''
 
 ## 下载开发版固件并获取SSH权限
 首先，打开[小米路由器ROM下载](https://www.miwifi.com/miwifi_download.html)![替代文本（图片加载失败显示）](/src/content/posts/openwrt-mi-3g/1.png "可选标题")往下翻，找到“小米路由器3G 开发版固件”，点击下载。
-下载完成后，打开[路由器后台](http://192.168.31.1)，点击“常用设置”，找到“系统状态”，点击手动升级，选择刚刚下载的开发版固件，点击开始，等待路由器自动重启。![111](src\content\posts\openwrt-mi-3g\2.png)![](src\content\posts\openwrt-mi-3g\upgrade.png)
+下载完成后，打开[路由器后台](http://192.168.31.1)，点击“常用设置”，找到“系统状态”，点击手动升级，选择刚刚下载的开发版固件，点击开始，等待路由器自动重启。![111](2.png)![](upgrade.png)
 路由器重启后，在手机上下载“小米WIFI”APP，登录小米账号，连接路由器的WIFI，完成绑定操作。
 回到电脑，打开[miwifi开放平台](https://www.miwifi.com/miwifi_open.html)下滑，找到SSH工具，点击，登录小米账号，在列表中找到刚才的路由器，按照网页的步骤操作，即可开启SSH。![alt text](image.png)
 
