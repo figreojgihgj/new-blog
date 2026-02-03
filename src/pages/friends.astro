@@ -21,10 +21,15 @@ const friends = Object.values(
             <h1 class="text-2xl font-bold text-black dark:text-white">友链</h1>
         </div>
 
-        <!-- 申请友链 -->
-            <p class="text-sm text-black/60 dark:text-white/60 mb-4">
-            如果您也想加入友链名单，<a target="_blank" href="https://gitee.com/arcwolf1/new-blog/tree/master/src/data/friends" class="transition link text-[var(--primary)] font-medium underline">请点击这里提交</a>
-            </p>
+<!-- 申请友链 -->
+            <div class="flex justify-between items-center mb-4">
+                <p class="text-sm text-black/60 dark:text-white/60">
+                想加入友链？点击右边的神秘小按钮，然后Fork本仓库，仿照1.json的格式，新建一个json，提交一个PR即可。
+                </p>
+                <a href="https://gitee.com/arcwolf1/new-blog/tree/master/src/data/friends" target="_blank" class="friend-btn">
+                    提交
+                </a>
+            </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             {friends.map((friend) => (
                 <a href={friend.link}target="_blank" class="friend-card">
@@ -75,4 +80,23 @@ const friends = Object.values(
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 0.15s;
     }
+	.friend-btn {
+        @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-all duration-150 min-w-[60px];
+        background-color: var(--primary);
+        color: white;
+        transform: translateZ(0);
+        box-sizing: border-box;
+    }
+
+    .friend-btn:hover {
+        background-color: var(--btn-regular-bg-hover);
+        color: var(--primary);
+        border-color: var(--primary);
+        @apply border border-[1px];
+    }
+
+.friend-btn:active {
+    scale: 0.98;
+    background-color: var(--btn-regular-bg-active);
+}
 </style>

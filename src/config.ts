@@ -113,12 +113,8 @@ export const siteConfig: SiteConfig = {
 	banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
-			desktop: [
-				'https://random.arcwolf.top/pic?img=ua',
-			], // 桌面横幅图
-			mobile: [
-				'https://random.arcwolf.top/pic?img=ua',
-			], // 移动横幅图片
+			desktop: ["https://random.arcwolf.top/pic?img=ua"], // 桌面横幅图
+			mobile: ["https://random.arcwolf.top/pic?img=ua"], // 移动横幅图片
 		}, // 使用本地横幅图片
 
 		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
@@ -147,9 +143,7 @@ export const siteConfig: SiteConfig = {
 			enable: true, // 在主页显示自定义文本
 			title: "Arcwolf Blog", // 主页横幅主标题
 
-			subtitle: [
-				"欢迎连接什亭之匣，老师"
-			],
+			subtitle: ["欢迎连接什亭之匣，老师"],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
@@ -181,10 +175,10 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// 留空以使用默认 favicon
 		{
-		src: '/assets/home/28.png',    // 图标文件路径
-		   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		   sizes: '32x32',              // 可选，图标大小
-		 }
+			src: "/assets/home/28.png", // 图标文件路径
+			theme: "light", // 可选，指定主题 'light' | 'dark'
+			sizes: "32x32", // 可选，图标大小
+		},
 	],
 
 	// 字体配置
@@ -211,12 +205,8 @@ export const siteConfig: SiteConfig = {
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
-		desktop: [
-			"https://random.arcwolf.top/pic?img=ua",
-		], // 桌面横幅图片
-		mobile: [
-			"https://random.arcwolf.top/pic?img=ua",
-		], // 移动横幅图片
+		desktop: ["https://random.arcwolf.top/pic?img=ua"], // 桌面横幅图片
+		mobile: ["https://random.arcwolf.top/pic?img=ua"], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
@@ -273,6 +263,12 @@ export const navBarConfig: NavBarConfig = {
 					name: "Devices",
 					url: "devices/",
 					icon: "material-symbols:devices",
+					external: false,
+				},
+				{
+					name: "相册",
+					url: "/albums/",
+					icon: "material-symbols:photo-library",
 					external: false,
 				},
 			],
@@ -488,7 +484,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 
 	// 侧栏组件布局配置
 	components: {
-		left: ["profile", "announcement", "categories","tags"],
+		left: ["profile", "announcement", "categories", "tags"],
 		right: ["site-stats", "calendar"],
 		drawer: ["profile", "announcement"],
 	},

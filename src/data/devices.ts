@@ -29,8 +29,7 @@ export const devicesData: DeviceCategory = {
 			name: "小米路由器3G",
 			image: "/images/device/bg-top.png",
 			specs: "白 / 128MB+256MB",
-			description:
-				"Openwrt，1000Mbps ，2.4G/5G双频，USB 3.0",
+			description: "Openwrt，1000Mbps ，2.4G/5G双频，USB 3.0",
 			link: "https://www.mi.com/miwifi3g",
 		},
 	],
@@ -39,9 +38,24 @@ export const devicesData: DeviceCategory = {
 			name: "Nova 7 Se",
 			image: "/images/device/OIP-C.webp",
 			specs: "鸿蒙OS，越用越流畅",
-			description:
-				"麒麟820 4000Mah电池，6400万主摄",
+			description: "麒麟820 4000Mah电池，6400万主摄",
 			link: "https://www.vmall.com/product/10086003450797.html",
+		},
+	],
+	PC: [
+		{
+			name: "ASUS VivoBook 15X",
+			image: "/images/device/image.png",
+			specs: "i7-1165G7 / 24G + 512GB",
+			description: "路易十六专属笔记本，16GB DDR4内存，512GB SSD存储",
+			link: "https://www.asus.com.cn/laptops/for-home/vivobook/vivobook-15-v5100-11th-gen-intel/",
+		},
+		{
+			name: "家里云服务器",
+			image: "/images/device/gm.jpg",
+			specs: "i3-8100 / 16G + ???G",
+			description: "史上最垃圾的服务器",
+			link: "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=917",
 		},
 	],
 };
