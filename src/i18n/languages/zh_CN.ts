@@ -3,7 +3,7 @@ import type { Translation } from "../translation";
 
 export const zh_CN: Translation = {
 	[Key.home]: "主页",
-	[Key.about]: "关于我们",
+	[Key.about]: "关于我",
 	[Key.archive]: "归档",
 	[Key.search]: "搜索",
 	[Key.other]: "其他",
@@ -86,7 +86,7 @@ export const zh_CN: Translation = {
 
 	// 404页面
 	[Key.notFound]: "404",
-	[Key.notFoundTitle]: "页面未找到",
+	[Key.notFoundTitle]: "不存在的页面",
 	[Key.notFoundDescription]: "抱歉，您访问的页面不存在或已被移动。",
 	[Key.backToHome]: "返回首页",
 

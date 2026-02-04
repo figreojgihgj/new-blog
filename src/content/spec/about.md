@@ -1,13 +1,25 @@
+## 个人信息
+- 中文名：N/A
+- 英文名：Arcwolf
 
+## 社交账号
+- Bilibili:[shiroko_offical](https://space.bilibili.com/1340036269)
+- Github：N/A(通行密钥丢了)
+- Gitee:[Arcwolf](https://gitee.com/arcwolf1)
+- QQ:3689398422
+- Wechat：N/A(不愿透露)
+
+## 游戏
+### 电脑
+- Steam:[Arcwolf](https://steamcommunity.com/profiles/76561199402137708/)(无法加好友)
+- Minecraft：N/A(玩的盗版)
+- 三角洲行动(Steam):ABDShiroko
+
+### 手机
+- 明日方舟终末地:(UID 1215877896)
+- 蔚蓝档案(国服):52778(好友码bll747y)
+
+## 网站架构
 本站由 **Astro** 框架搭建，使用 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 主题。
 
 ::github{repo="matsuzaka-yuki/Mizuki"}
-
-## 建站原因
-原先的站点[Arcwolf's Blog](https://blog.arcwolf.top/) 的服务器被OMV和PVE爆破了，导致无法正常访问，因此重新搭建了一个站点，顺便看看无服务器架构如何。
-
-## 迁移工作
-别想了，就Openeuler那糟糕的兼容性，docker能不能跑都是个问题（话说信创系统怎么那么反人类），重构得了
-
-## 其他
-根本想不到写啥，就这样吧

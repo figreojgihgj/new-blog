@@ -23,7 +23,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
 	title: "Arcwolf Blog",
-	subtitle: "",
+	subtitle: "个人生活历程分享",
 	siteURL: "https://arcwolf.top/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-02-02", // 站点开始运行日期，用于站点统计组件计算运行天数
 
@@ -296,7 +296,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "/assets/home/28.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Arcwolf",
-	bio: "故人西辞黄鹤楼，西大闪击宿舍楼。",
+	bio: "我不到啊",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
