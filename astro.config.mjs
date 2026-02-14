@@ -26,6 +26,7 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 import { remarkContent } from "./src/plugins/remark-content.mjs";
 import { rehypeImageWidth } from "./src/plugins/rehype-image-width.mjs";
+import indexnow from "astro-indexnow";
 
 // https://astro.build/config
 export default defineConfig({
@@ -38,6 +39,9 @@ export default defineConfig({
 	integrations: [
 		tailwind({
 			nesting: true,
+		}),
+		indexnow({
+			key: process.env.INDEXNOW_KEY,
 		}),
 		swup({
 			theme: false,
