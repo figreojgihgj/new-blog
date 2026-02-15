@@ -184,6 +184,10 @@ export type SiteConfig = {
 		depth: 1 | 2 | 3;
 		useJapaneseBadge?: boolean; // 使用日语假名标记（あいうえお...）代替数字
 	};
+	// 火车图标配置
+	trainIcon?: {
+		enable: boolean; // 是否启用火车图标
+	};
 	showCoverInContent: boolean; // 控制文章封面在文章内容页显示的开关
 	generateOgImages: boolean;
 	favicon: Favicon[];
