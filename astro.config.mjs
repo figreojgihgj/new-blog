@@ -27,6 +27,7 @@ import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 import { remarkContent } from "./src/plugins/remark-content.mjs";
 import { rehypeImageWidth } from "./src/plugins/rehype-image-width.mjs";
 import indexnow from "astro-indexnow";
+import { umami } from "oddmisc";
 
 // https://astro.build/config
 export default defineConfig({
