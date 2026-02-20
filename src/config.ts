@@ -161,7 +161,7 @@ export const siteConfig: SiteConfig = {
 		},
 
 		navbar: {
-			transparentMode: "semifull", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明，"semifull" 动态透明
+			transparentMode: "semi", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明，"semifull" 动态透明
 		},
 	},
 	toc: {
@@ -582,8 +582,8 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-	enabled: true, // 是否显示Umami统计
-	apiKey: import.meta.env.UMAMI_API_KEY || "Z7xSKUUD66e9B6Od", // API密钥优先从环境变量读取，否则使用配置文件中的值
+	enabled: false, // 是否显示Umami统计
+	apiKey: import.meta.env.UMAMI_API_KEY || "", // API密钥优先从环境变量读取，否则使用配置文件中的值
 	baseUrl: "https://umami.arcwolf.top/api", // Umami Cloud API地址
 	scripts: `
 <script defer src="https://umami.arcwolf.top/script.js" data-website-id="06a0da71-5d98-408d-a834-a72a977584b9"></script>
