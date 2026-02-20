@@ -38,20 +38,20 @@ export const siteConfig: SiteConfig = {
 
 	// 特色页面开关配置（关闭未使用的页面有助于提升 SEO，关闭后请记得在 navbarConfig 中移除对应链接）
 	featurePages: {
-		anime: true, // 番剧页面开关
-		diary: true, // 日记页面开关
+		anime: false, // 番剧页面开关
+		diary: false, // 日记页面开关
 		friends: true, // 友链页面开关
-		projects: true, // 项目页面开关
-		skills: true, // 技能页面开关
+		projects: false, // 项目页面开关
+		skills: false, // 技能页面开关
 		timeline: true, // 时间线页面开关
-		albums: true, // 相册页面开关
-		devices: true, // 设备页面开关
+		albums: false, // 相册页面开关
+		devices: false, // 设备页面开关
 	},
 
 	// 顶栏标题配置
 	navbarTitle: {
 		// 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
-		mode: "logo",
+		mode: "text-icon",
 		// 顶栏标题文本
 		text: "Arcwolf",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
@@ -166,7 +166,7 @@ export const siteConfig: SiteConfig = {
 	},
 	toc: {
 		enable: true, // 启用目录功能
-		mode: "sidebar", // 目录显示模式："float" 悬浮按钮模式，"sidebar" 侧边栏模式
+		mode: "float", // 目录显示模式："float" 悬浮按钮模式，"sidebar" 侧边栏模式
 		depth: 2, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
 		useJapaneseBadge: true, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
 	},
@@ -229,64 +229,25 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接，支持多级菜单
 		{
-			name: "Links",
-			url: "/links/",
-			icon: "material-symbols:link",
-			children: [
-				{
-					name: "Github",
-					url: "https://github.com/shittim-team",
-					external: true,
-					icon: "fa7-brands:github",
-				},
-				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/1340036269",
-					external: true,
-					icon: "fa7-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/arcwolf1",
-					external: true,
-					icon: "mdi:git",
-				},
-			],
+			name: "Friends",
+			url: "/friends/",
+			icon: "material-symbols:group",
 		},
-		{
-			name: "My",
-			url: "/content/",
-			icon: "material-symbols:person",
-			children: [
-				{
-					name: "Diary",
-					url: "/diary/",
-					icon: "material-symbols:book",
-				},
-
-				{
-					name: "Devices",
-					url: "devices/",
-					icon: "material-symbols:devices",
-					external: false,
-				},
-				{
-					name: "相册",
-					url: "/albums/",
-					icon: "material-symbols:photo-library",
-					external: false,
-				},
-			],
-		},
-			{
-				name: "Friends",
-				url: "/friends/",
-				icon: "material-symbols:group",
-			},
 		{
 			name: "About",
 			url: "/about/",
 			icon: "material-symbols:info",
+		},
+		{
+			name: "统计",
+			url: "https://umami.arcwolf.top/share/Z7xSKUUD66e9B6Od",
+			icon: "material-symbols:analytics",
+			external: true,
+		},
+		{
+			name: "封面",
+			url: "/cover/",
+			icon: "material-symbols:image-rounded",
 		},
 	],
 };
@@ -529,7 +490,7 @@ export const sakuraConfig: SakuraConfig = {
 			max: -1.2, // 水平移动速度最大值
 		},
 		vertical: {
-			min: 1.5, // 垂直移动速度最小值
+			min: 1.5, // 垂直script.js移动速度最小值
 			max: 2.2, // 垂直移动速度最大值
 		},
 		rotation: 0.03, // 旋转速度
@@ -582,3 +543,4 @@ export const umamiConfig = {
 <script defer src="https://umami.arcwolf.top/script.js" data-website-id="06a0da71-5d98-408d-a834-a72a977584b9"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
+
