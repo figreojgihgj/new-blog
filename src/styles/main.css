@@ -20,15 +20,15 @@
 
 @font-face {
   font-family: "Harmony OS Sans";
-  src: url("public/assets/font/HarmonyOS_Sans_Regular.ttf") format("truetype");
+  src: url("/assets/font/HarmonyOS_Sans_Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Harmony OS Sans";
-  src: url("public/assets/font/HarmonyOS_Sans_SC_Regular.ttf") format("truetype");
+  font-family: "Harmony OS Sans SC";
+  src: url("/assets/font/HarmonyOS_Sans_SC_Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -726,4 +726,3 @@ html {
 :root:not(.dark) .custom-md spoiler {
   --_spoiler-mask: color-mix(in oklch, var(--primary) 55%, white 45%);
 }
-
