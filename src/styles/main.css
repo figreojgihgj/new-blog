@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: "Harmony OS Sans";
-  src: url("/assets/font/HarmonyOS_Sans_Regular.woff2") format("woff2");
+  src: url("/assets/font/HarmonyOS_Sans_Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: "Harmony OS Sans SC";
-  src: url("/assets/font/HarmonyOS_Sans_SC_Regular.woff2") format("woff2");
+  src: url("/assets/font/HarmonyOS_Sans_SC_Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
