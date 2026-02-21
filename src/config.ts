@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 60, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 250, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
@@ -234,7 +234,12 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:group",
 		},
 		{
-			name: "About",
+			name: "Timeline",
+			url: "/timeline/",
+			icon: "material-symbols:timeline",
+		},
+		{
+			name: "关于",
 			url: "/about/",
 			icon: "material-symbols:info",
 		},
