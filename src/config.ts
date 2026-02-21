@@ -210,7 +210,7 @@ export const siteConfig: SiteConfig = {
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
-		desktop: ["https://random.arcwolf.top/pic?img=ua"], // 桌面横幅图片
+		desktop: ["/assets/mobile-banner/1.webp"], // 桌面横幅图片
 		mobile: ["https://random.arcwolf.top/pic?img=ua"], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -543,4 +543,3 @@ export const umamiConfig = {
 <script defer src="https://umami.arcwolf.top/script.js" data-website-id="06a0da71-5d98-408d-a834-a72a977584b9"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
-
