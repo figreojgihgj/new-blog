@@ -1,6 +1,6 @@
 ---
 title: 为小米路由器3G刷入breed+LEDE，让老机型焕发第二春
-published: 2026-01-10
+published: 2026-01-20
 description: '咸鱼上买了个小米路由器3G，觉得原产固件太烂了，就给它刷了系统'
 image: ''
 tags: [Openwrt,刷机]
