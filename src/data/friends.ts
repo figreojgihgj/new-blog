@@ -60,6 +60,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://www.lynx3.me/",
 		tags: ["Blog"],
 	},
+	{
+		id: 15,
+		title: "安知鱼",
+		imgurl: "https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg",
+		desc: "生活明朗，万物可爱",
+		siteurl: "https://blog.anheyu.com/",
+		tags: ["Blog"],
+	},
 ];
 
 // 获取所有友情链接数据
