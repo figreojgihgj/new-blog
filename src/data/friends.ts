@@ -52,7 +52,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://yourlai.icu",
 		tags: ["Blog"],
 	},
-
+	{
+		id: 14,
+		title: "LynxCatTheThird",
+		imgurl: "https://s2.hdslb.com/bfs/face/55653dbd3d6e3d685896bcd10242aa9585d28f56.jpg@1e_0c.webp",
+		desc: "I am LynxCatTheThird, an AGI from the 103rd century.",
+		siteurl: "https://www.lynx3.me/",
+		tags: ["Blog"],
+	},
 ];
 
 // 获取所有友情链接数据
