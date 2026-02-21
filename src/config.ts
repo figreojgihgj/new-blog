@@ -210,7 +210,7 @@ export const siteConfig: SiteConfig = {
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
-		desktop: ["/assets/mobile-banner/1.webp"], // 桌面横幅图片
+		desktop: ["https://random.arcwolf.top/pic?img=ua"], // 桌面横幅图片
 		mobile: ["https://random.arcwolf.top/pic?img=ua"], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
