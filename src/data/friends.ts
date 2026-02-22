@@ -76,6 +76,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.redcha.cn",
 		tags: ["Blog"],
 	},
+	{
+		id: 17,
+		title: "Sukka's Blog",
+		imgurl: "https://cdn.skk.moe/favicon/favicon-32x32.png",
+		desc: "童话只美在真实却从不续写",
+		siteurl: "https://skk.moe",
+		tags: ["Blog"],
+	},
 ];
 
 // 获取所有友情链接数据
