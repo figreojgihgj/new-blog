@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/arcwolf
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.arcwolf.top
+  * I am arcwolf (https://keybase.io/arcwolf) on keybase.
+  * I have a public key ASDy8mxifo8Mxp86lMK8cAnt1t8Zt67VgzcUIJg3qZzRtQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f2f26c627e8f0cc69f3a94c2bc7009edd6df19b7aed5833714209837a99cd1b50a",
+      "host": "keybase.io",
+      "kid": "0120f2f26c627e8f0cc69f3a94c2bc7009edd6df19b7aed5833714209837a99cd1b50a",
+      "uid": "86cb28cff5ab4a292d26816aa7ef8a19",
+      "username": "arcwolf"
+    },
+    "merkle_root": {
+      "ctime": 1771758061,
+      "hash": "4b108ee8ad07200a4baba6a6bb95f50e97e3530e73ef4ba946ec06177b188930fa087e3370e0c159a0a55b69ad2857aa50323d5e48cb4a4187a304a17c28f48a",
+      "hash_meta": "7f13ebae718e956e7c136d05842538729f05624a64de3367e9de95cf978027f6",
+      "seqno": 27426204
+    },
+    "service": {
+      "entropy": "cZU7Nc1zPvYQalwUTfCusGyR",
+      "hostname": "www.arcwolf.top",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.5"
+  },
+  "ctime": 1771758075,
+  "expire_in": 504576000,
+  "prev": "b8295ad5090136ce9e04868cad85386c4f805fad12aa6db765fe77f666d8108c",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8vJsYn6PDMafOpTCvHAJ7dbfGbeu1YM3FCCYN6mc0bUKp3BheWxvYWTESpcCC8QguCla1QkBNs6eBIaMrYU4bE+AX60Sqm23Zf539mbYEIzEID8wqw95HBOZLpszW+c9d/TvmCMz7KX1ggl7klDPGqvMAgHCo3NpZ8RAU1khDIvShPe2HqYIU9SY2Z4FlWKQJGwwEN/w/QzHyCh+vg/DxKez/2EiEPEBxXxZw1MKrE8VWNKzjr3phsoPCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID8V/2W6ZYJSq3s5NSq59yaHGFv5AjbKHn8ANrhpWBRqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/arcwolf
+
+==================================================================
