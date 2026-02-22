@@ -68,6 +68,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.anheyu.com/",
 		tags: ["Blog"],
 	},
+	{
+		id: 16,
+		title: "彬红茶博客",
+		imgurl: "https://blog.redcha.cn/favicon.ico",
+		desc: "顶茶心 知识魂",
+		siteurl: "https://blog.redcha.cn",
+		tags: ["Blog"],
+	},
 ];
 
 // 获取所有友情链接数据
