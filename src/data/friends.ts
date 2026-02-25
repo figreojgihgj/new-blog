@@ -84,6 +84,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://skk.moe",
 		tags: ["Blog"],
 	},
+	{
+		id: 18,
+		title: "爱吃可比克的鲸鱼",
+		imgurl: "https://zxs24719.codeberg.page/avatar.jpg",
+		desc: "",
+		siteurl: "https://zxs24719.codeberg.page/",
+		tags: ["Home"],
+	},
 ];
 
 // 获取所有友情链接数据
@@ -100,3 +108,4 @@ export function getShuffledFriendsList(): FriendItem[] {
 	}
 	return shuffled;
 }
+
